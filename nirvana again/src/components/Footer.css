@@ -1,0 +1,176 @@
+.footer-child {
+  height: 480.7px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-gray-300);
+  display: none;
+  max-width: 100%;
+}
+.image-class {
+  width: 100%;        /* Adjust the width */
+  height: auto;       /* Maintain aspect ratio */
+}
+
+.follow-us,
+.useful-links {
+  width: 105.8px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.useful-links {
+  width: 133.9px;
+}
+.footer-links-title {
+  width: 471.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.bxlinstagram-icon,
+.circumfacebook-icon,
+.etlinkedin-icon,
+.ettwitter-icon {
+  height: 35.9px;
+  width: 37.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.bxlinstagram-icon,
+.circumfacebook-icon,
+.etlinkedin-icon {
+  width: 36px;
+}
+.bxlinstagram-icon,
+.circumfacebook-icon {
+  height: 40.2px;
+  width: 41.6px;
+  min-height: 40px;
+}
+.bxlinstagram-icon {
+  width: 42.8px;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl-9);
+}
+.our-projects {
+  margin-bottom: 10px;
+}
+.our-projects-faqs-news-and-up {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.our-projects-faqs-container {
+  width: 184.5px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.footer-links-title-parent,
+.social-links {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.social-links {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-mini);
+}
+.footer-links-title-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini-1);
+  max-width: 100%;
+}
+.all-copyrights-reserved {
+  width: 195.8px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.copyright,
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+}
+.copyright {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+  font-size: var(--font-size-mini);
+}
+.footer-content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-84xl-4);
+  max-width: 100%;
+}
+.contacts {
+  width: 105.8px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.email-nirvanagmailcom {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.phone-number {
+  margin: 0;
+}
+.address-4-5-container {
+  align-self: stretch;
+  height: 96.8px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.contact-info,
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-info {
+  width: 273.4px;
+  flex-direction: column;
+  gap: var(--gap-mini-1);
+  min-width: 273.4px;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-gray-300);
+  flex-direction: row;
+  padding: var(--padding-97xl-4) var(--padding-102xl) var(--padding-80xl-5)
+    var(--padding-422xl);
+  box-sizing: border-box;
+  gap: var(--gap-77xl-7);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

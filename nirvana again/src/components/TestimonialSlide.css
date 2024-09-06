@@ -1,0 +1,78 @@
+.evangeline,
+.lorem-ipsum {
+  height: 11px;
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+}
+.lorem-ipsum {
+  height: 8px;
+  font-size: var(--font-size-xs);
+  min-width: 78px;
+}
+.evangeline-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.star-icon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  border-radius: var(--br-12xs-5);
+}
+.frame-parent3,
+.star-parent {
+  display: flex;
+  flex-direction: row;
+}
+.star-parent {
+  height: 13px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+}
+.frame-parent3 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lorem-ipsum-is-simply {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.testimonial-slide-child {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin: 0 !important;
+  top: -48px;
+  left: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.testimonial-slide {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-42xl) var(--padding-13xl) var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+  min-width: 264px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
